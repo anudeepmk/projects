@@ -1,3 +1,4 @@
 adding a new file in a newly created branch
 added a new line from the office laptop
 added line again from gitHub directly
+adding new changes to the newfile.txt to test the git stashing
