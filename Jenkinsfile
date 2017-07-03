@@ -3,6 +3,6 @@
   node {
     stage ('build') {
       checkout scm
-      echo "This is a build from branch master"
+      echo "This is a build from branch env.BRANCH_NAME"
     }
     }
