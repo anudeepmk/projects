@@ -1,6 +1,6 @@
 #!/usr/bin/groovy
 
   node {
-    stage 'build'
+    stage ('build')
     echo "This is a build from branch ${GIT_BRANCH}"
   }
