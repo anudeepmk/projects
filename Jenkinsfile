@@ -4,5 +4,6 @@
     stage ('build') {
       checkout scm
       echo "This is a build from branch ${env.BRANCH_NAME}"
+      echo "ran by user ${env.BUILD_USER_ID}"
     }
     }
